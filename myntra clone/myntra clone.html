@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Myntra Clone</title>
+    <link rel="icon" type="x-icon" href="icon.webp">
+     <link rel="stylesheet" href="myntra.css">
+    <link rel="stylesheet" href="http://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    
+    </head>
+    <body>
+        <header class="containerHeader">
+        <nav class="flex space-between">
+            <div class="left flex items-center">
+            <img src="myntralogo.webp" alt="">
+                <ul class="flex items-center justify-center uppercase semibold">
+                <li class="menu-item">
+                    <a href="#">men</a>
+                     <div class="submenu1">
+                         <ul>
+        <li><a href="#">Clothing</a></li>
+        <li><a href="#">Shoes</a></li>
+        <li><a href="#">Accessories</a></li>
+                     </ul>
+                    </div></li>
+                    <li class="menu-item">
+                <a href="#">women</a>
+                   <div class="submenu1">
+                       <ul>
+        <li><a href="#">Tops</a></li>
+        <li><a href="#">watches</a></li>
+        <li><a href="#">Accessories</a></li>
+        <li><a href="#">Clothing</a></li>
+        <li><a href="#">Shoes</a></li>
+        <li><a href="#">Accessories</a></li>
+                     </ul>
+                        </div></li>
+                      <li class="menu-item">
+                          <a href="#">kids</a>
+                    <div class="submenu1">
+                       <ul>
+        <li><a href="#">Boys clothing</a></li>
+        <li><a href="#">Girls clothing</a></li>
+        <li><a href="#">Footwear</a></li>
+        <li><a href="#">Toys & Games</a></li>
+        <li><a href="#">Infants</a></li>
+        <li><a href="#">Home & bath</a></li>
+        <li><a href="#">Personal care</a></li>
+                     </ul>
+                        </div>
+                    </li>
+                      <li class="menu-item">
+                          <a href="#">Home and Living</a>
+                    <div class="submenu1">
+                       <ul>
+        <li><a href="#">Home Decors</a></li>
+        <li><a href="#">Flooring</a></li>
+        <li><a href="#">Lamps & Lighting</a></li>
+        <li><a href="#">Kitchen & Table</a></li>
+        <li><a href="#">Curtains</a></li>
+        <li><a href="#">Storage</a></li>
+        <li><a href="#">Cushions & Cushion Covers</a></li>
+                        </ul></div>
+                    </li>
+                      <li class="menu-item">
+                          <a href="#">Beauty</a>
+                    <div class="submenu1">
+                       <ul>
+        <li><a href="#">Makeup</a></li>
+        <li><a href="#">Skincare</a></li>
+        <li><a href="#">Bath & Body</a></li>
+        <li><a href="#">Haircare</a></li>
+        <li><a href="#">Babycare</a></li>
+        <li><a href="#">Masks</a></li>
+        <li><a href="#">Appliances</a></li>   
+        <li><a href="#">Men's Grooming</a></li>
+                     </ul>
+                        </div>
+                    </li>
+                
+                </ul>
+            </div>   
+            <div class="right flex items-center">
+            <input class="search" placeholder="Search for products,brands and more" class="desktop-searchbar" value="" data-reactid="904">
+                <div class="rightbox">
+            <div class="wishlist mx-2">Wishlist</div>
+            <div class="bag mx-2">Bag</div> 
+                    
+                </div>
+            </div>
+            <button class="button" id="form-open">Login</button>
+            
+            </nav>
+        
+        </header>
+        <section class="home">
+        <div class="form-container">
+            <i class="uil uil-times form_close"></i>
+            <div class="form login_form">
+            <form action="#">
+                <h2>Login</h2>
+                <div class="input_box">
+                <input type="email" placeholder="Enter your Email" required/>
+                    <i class="uil uil-envelope-alt email"></i>
+                </div>
+                <div class="input_box">
+                <input type="password" placeholder="Enter your Password" required/>
+                    <i class="uil uil-lock password"></i>
+                    <i class="uil uil-eye-slash pw_hide"></i>
+                </div>
+                <div class="option-field">
+                <span class="checkbox">
+                    <input type="checkbox" id="check">
+                    <label for="check">Remember me</label>
+                    </span>
+                    <a href="" class="forgot_pw">Forgot Password?</a>
+                </div>
+                <button class="button">Login</button>
+                <div class="login_signup">Don't have an account?
+                <a href="#" id="signup">Signup</a>
+                </div>
+                </form>
+            </div>
+            
+            <div class="form signup_form">
+            <form action="#">
+                <h2>Signup </h2>
+                <div class="input_box">
+                <input type="email" placeholder="Enter your Email" required/>
+                    <i class="uil uil-envelope-alt email"></i>
+                </div>
+                <div class="input_box">
+                <input type="password" placeholder="Create your Password" required/>
+                    <i class="uil uil-lock password"></i>
+                    <i class="uil uil-eye-slash pw_hide"></i>
+                </div>
+                <div class="input_box">
+                <input type="password" placeholder="Confirm your Password" required/>
+                    <i class="uil uil-lock password"></i>
+                    <i class="uil uil-eye-slash pw_hide"></i>
+                </div>
+                
+                <button class="button">Signup</button>
+                <div class="login_signup">Already have an account?
+                <a href="#" id="login">Login</a>
+                </div>
+                </form>
+            </div>
+            
+            </div>
+        </section>
+        
+        
+        
+        
+        <section class="container section1">
+            <img class="homeimg" src="dis.png"/>
+        <img class="homeimg" src="offer.png"/>
+            <img class="homeimg" src="coupons.webp"/>
+            <img class="homeimg" src="watch.webp"/>
+        
+        </section>
+    <section class="container section1 flex flex-wrap">
+        <img class="itemimg" src="1.png">
+        <img class="itemimg" src="2.png">
+        <img class="itemimg" src="3.png">
+        <img class="itemimg" src="4.png">
+        <img class="itemimg" src="5.png">
+        <img class="itemimg" src="6.png">
+        <img class="itemimg" src="7.png">
+        <img class="itemimg" src="8.png">
+        <img class="itemimg" src="9.png">
+        <img class="itemimg" src="10.png">
+        <img class="itemimg" src="11.png">
+        <img class="itemimg" src="12.png">
+        <img class="itemimg" src="13.png">
+        <img class="itemimg" src="14.png">
+        <img class="itemimg" src="15.png">
+        <img class="itemimg" src="16.png">
+        <img class="itemimg" src="17.png">
+        
+        </section>
+    <footer class="my-2">
+        Copyright & Copy2023: myntra.com  | All Rights Reserved
+        </footer>
+    
+    <script src="myntra.js"></script>
+    </body>
+
+</html>
